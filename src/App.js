@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //
 //
 //
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Navbar from "./components/Navbar";
 
 export default class App extends Component {
   render() {
@@ -16,9 +16,10 @@ export default class App extends Component {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/porfolio" exact component={Portfolio} />
           <Route path="/about" exact component={About} />
-          <Route path="/*" exact component={Home} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          {/* ---------- */}
+          <Route path={() => "/main" || "/admin" || "/*"} component={Home} />
         </Switch>
       </Router>
     );

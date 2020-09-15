@@ -13,7 +13,6 @@ class Home extends Component {
     return (
       <React.Fragment>
         <HomeContent />
-        <h1>home</h1>
       </React.Fragment>
     );
   }
