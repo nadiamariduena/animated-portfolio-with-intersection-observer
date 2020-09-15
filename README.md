@@ -1,6 +1,6 @@
 # (APP in PROGRESS)
 
-#### To create this project I am going to use the INTERSECTION OBSERVER.
+#### To create this project I am going to use the INTERSECTION OBSERVER and GSAP.
 
 <br>
 
@@ -27,7 +27,7 @@ https://medium.com/the-non-traditional-developer/how-to-use-an-intersectionobser
 
 <br>
 
-### or
+#### or
 
 <br>
 

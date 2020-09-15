@@ -1,0 +1,29 @@
+header {
+  width: 100vw;
+  min-height: 3vh;
+  padding: 15px 0;
+  //
+  //
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+
+  .logo {
+    text-decoration: none;
+    color: #000;
+  }
+
+  nav {
+    li {
+      list-style: none;
+      display: inline;
+      margin: 0 20px 0 0;
+      color: #111;
+    }
+  }
+  //
+  .nav-links {
+    text-decoration: none;
+  }
+}
