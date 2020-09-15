@@ -1,4 +1,6 @@
-# (APP in PROGRESS) To create this project I am going to use the INTERSECTION OBSERVER.
+# (APP in PROGRESS) 
+
+#### To create this project I am going to use the INTERSECTION OBSERVER.
 
 <br>
 <br>
