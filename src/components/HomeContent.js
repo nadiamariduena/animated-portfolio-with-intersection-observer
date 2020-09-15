@@ -16,7 +16,15 @@ const HomeContent = () => {
   //
   // _1_
   const sectionRef = useRef(null);
+  /*
+  
+  if i understood well, this is the way you assign to a class id , you
+   add the ref name in this case: sectionRef  to the div
+   you want and automatically you have it like if you were doing this:
 
+const random = document.getElementById("root")
+
+*/
   //
   // _2
   const intersection = useIntersection(sectionRef, {
