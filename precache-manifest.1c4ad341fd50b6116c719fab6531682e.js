@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95ed7700cd879384fd2540c86a3b2d11",
+    "revision": "1a76963c6727f4abb28f04e9b6e74ecb",
     "url": "/animated-portfolio-with-intersection-observer/index.html"
   },
   {
-    "revision": "28c01601216d5be9b450",
-    "url": "/animated-portfolio-with-intersection-observer/static/css/main.07c03d25.chunk.css"
+    "revision": "eb3e93d5e82ead53e71d",
+    "url": "/animated-portfolio-with-intersection-observer/static/css/main.db1ef914.chunk.css"
   },
   {
-    "revision": "8361f82239f5dc151670",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/2.bd5886e9.chunk.js"
+    "revision": "2a526f27cc07870f1371",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/2.e42c1b99.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/2.bd5886e9.chunk.js.LICENSE.txt"
+    "revision": "85c1ecd325742a4c0551d2653970c6fb",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/2.e42c1b99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28c01601216d5be9b450",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/main.79098550.chunk.js"
+    "revision": "eb3e93d5e82ead53e71d",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/main.80495e9c.chunk.js"
   },
   {
     "revision": "c680624806c7f1411dac",
