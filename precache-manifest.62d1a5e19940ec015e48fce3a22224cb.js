@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4cb8405c05546e21ba47e446009af85",
+    "revision": "317247e017225455a1d921e10576025a",
     "url": "/animated-portfolio-with-intersection-observer/index.html"
   },
   {
-    "revision": "d2782935ed463de4a749",
-    "url": "/animated-portfolio-with-intersection-observer/static/css/main.e0fc0de3.chunk.css"
+    "revision": "0656bbbb954f10efc60d",
+    "url": "/animated-portfolio-with-intersection-observer/static/css/main.187d6ef9.chunk.css"
   },
   {
     "revision": "7f60608f86171fded23e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animated-portfolio-with-intersection-observer/static/js/2.6276fb8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2782935ed463de4a749",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/main.c88adfcb.chunk.js"
+    "revision": "0656bbbb954f10efc60d",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/main.b3fa51d5.chunk.js"
   },
   {
     "revision": "c680624806c7f1411dac",
