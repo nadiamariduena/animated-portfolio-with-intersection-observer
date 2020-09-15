@@ -14,6 +14,18 @@ curious about the way it would look in React.
 
 <br>
 
+[<img src="./src/img/preview.gif">](https://nadiamariduena.github.io/animated-portfolio-with-intersection-observer/)
+
+<br>
+<br>
+
+<p>Yesterday's Project</p>
+
+[<img src="./public/img/preview.gif">](https://nadiamariduena.github.io/react-hide-show-onscroll/)
+
+<br>
+<br>
+
 <h1> What is Intersection
 Observer?
 </h1>

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/animated-portfolio-with-intersection-observer/precache-manifest.e528650972e6640b02f0c63679713cb3.js"
+  "/animated-portfolio-with-intersection-observer/precache-manifest.62d1a5e19940ec015e48fce3a22224cb.js"
 );
 
 self.addEventListener('message', (event) => {
