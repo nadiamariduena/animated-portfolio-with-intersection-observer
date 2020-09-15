@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80bb9ba8be82b73566f867d23b678e9c",
+    "revision": "95ed7700cd879384fd2540c86a3b2d11",
     "url": "/animated-portfolio-with-intersection-observer/index.html"
   },
   {
-    "revision": "e746383b06e32162ef6f",
-    "url": "/animated-portfolio-with-intersection-observer/static/css/main.c45946a4.chunk.css"
+    "revision": "28c01601216d5be9b450",
+    "url": "/animated-portfolio-with-intersection-observer/static/css/main.07c03d25.chunk.css"
   },
   {
-    "revision": "ee14a96ec660a1898a41",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/2.ff3000b0.chunk.js"
+    "revision": "8361f82239f5dc151670",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/2.bd5886e9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/2.ff3000b0.chunk.js.LICENSE.txt"
+    "url": "/animated-portfolio-with-intersection-observer/static/js/2.bd5886e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e746383b06e32162ef6f",
-    "url": "/animated-portfolio-with-intersection-observer/static/js/main.e0ce4afa.chunk.js"
+    "revision": "28c01601216d5be9b450",
+    "url": "/animated-portfolio-with-intersection-observer/static/js/main.79098550.chunk.js"
   },
   {
     "revision": "c680624806c7f1411dac",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-03-720x905.4abee242.jpg"
   },
   {
-    "revision": "6292a6da3476b286af7c56514d1b9b4f",
-    "url": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-new-011-720x581.6292a6da.jpg"
+    "revision": "cff39982b4e8071636ed8bc12c640f9d",
+    "url": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-new-04.cff39982.jpg"
   }
 ]);
