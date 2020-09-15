@@ -13,21 +13,28 @@ import Img2 from "../img/adam-peter-johnson_metalmagazine-1.jpg";
 //
 const HomeContent = () => {
   //
+  //
   // _1_
-  // Ref for our element
   const sectionRef = useRef(null);
-  // All the ref to be observed
+
+  //
+  // _2
   const intersection = useIntersection(sectionRef, {
     root: null,
     rootMargin: "0px",
     threshold: 0.2,
+    // totally different to the vanilla way where you have more options
+    // use the overlay in the css , the heigh there must to be the same heigh of the rooMargin: 300px height: 300px is the only way you can see when the anim will happen
+    // if you change the  threshold: 0.2, to 1 for example, the rootMargin will mess considerably,  it takes a lot of brain to figure it out this little shit when in vanilla js you have it easily, maybe it will take me some time ultil i figure it out :D
   });
 
+  //
+  //4 THE FUNCTIONS ------------
   // Animation for fading in
   const fadeIn = (element) => {
     gsap.to(element, 1, {
       opacity: 1,
-      y: -100,
+      y: -60,
       ease: "power4.out",
       stagger: {
         amount: 0.3,
@@ -39,55 +46,100 @@ const HomeContent = () => {
     gsap.to(element, 1, {
       opacity: 0,
       y: -20,
-      ease: "power4.out",
+      ease: "power1.out",
     });
   };
-
-  // checking to see when the vieport is visible to the user
+  //
+  // --------------------------
+  //
+  // 3
+  // TERNARY OPERATOR for the animation functions
   intersection && intersection.intersectionRatio < 0.2
     ? fadeOut(".fadeIn")
     : fadeIn(".fadeIn");
-
+  //
+  //
+  //
   return (
     <React.Fragment>
-      <div id="TopSection">
-        <div ref={sectionRef} className="inner">
-          <h5 className="fadeIn">Books</h5>
-          <h2 className="fadeIn">
-            Quick Thoughts: Friedrich Schiller - On the Aesthetic Education of
-            Man
-          </h2>
+      <div className="TopSection">
+        <div ref={sectionRef} className="section-second">
+          <div className="inner">
+            <h5>Books</h5>
+            <h2>
+              Quick Thoughts: Friedrich Schiller - On the Aesthetic Education of
+              Man
+            </h2>
 
-          <img className="img-box fadeIn" src={Img1} alt="img" />
+            <img className="img-box fadeIn" src={Img1} alt="img" />
 
-          <p className="fadeIn">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            voluptatibus labore eveniet fugiat enim nostrum reiciendis fuga
-            saepe ratione corporis est reprehenderit sed eaque quo, mollitia aut
-            repellat, consequuntur rem quae? Consequuntur recusandae sunt
-            voluptatibus repellat placeat autem cum repudiandae dolores error
-            minima libero eos, ducimus fugit hic quo, accusamus expedita iste
-            cumque quidem odio? Molestiae accusantium eligendi, ipsam velit
-            cumque iste, odio architecto rem nesciunt dolorem quae! Non quis
-            reiciendis dolore nostrum repellat eos provident magni? Sed,
-            inventore. Sit cupiditate, omnis, rerum minus eveniet eaque dolore
-            dolor dignissimos tempore unde repellendus aspernatur nihil,
-            praesentium quae assumenda quaerat vitae sint?
-          </p>
+            <p className="fadeIn">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              voluptatibus labore eveniet fugiat enim nostrum reiciendis fuga
+              saepe ratione corporis est reprehenderit sed eaque quo, mollitia
+              aut repellat, consequuntur rem quae? Consequuntur recusandae sunt
+              voluptatibus repellat placeat autem cum repudiandae dolores error
+              minima libero eos, ducimus fugit hic quo, accusamus expedita iste
+              cumque quidem odio? Molestiae accusantium eligendi, ipsam velit
+              cumque iste, odio architecto rem nesciunt dolorem quae! Non quis
+              reiciendis dolore nostrum repellat eos provident magni? Sed,
+              inventore. Sit cupiditate, omnis, rerum minus eveniet eaque dolore
+              dolor dignissimos tempore unde repellendus aspernatur nihil,
+              praesentium quae assumenda quaerat vitae sint?
+            </p>
 
-          <div className="twin-img">
-            <img className="img-box fadeIn" src={Img2} alt="img " />
-            <img className="img-box fadeIn" src={Img2} alt="img" />
+            <div className="twin-img">
+              <img className="img-box fadeIn" src={Img2} alt="img " />
+              <img className="img-box fadeIn" src={Img2} alt="img" />
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+              dolores facere ea blanditiis minima expedita vero quasi, neque
+              ducimus eum molestias ullam alias libero assumenda adipisci
+              perferendis, enim quod. Expedita voluptates at voluptas fugit id
+              deserunt perspiciatis dolore numquam. Beatae aspernatur cupiditate
+              minima fugiat exercitationem illo sint nam repellat hic?
+            </p>
+
+            <p>
+              Massa id neque aliquam vestibulum. Nibh praesent tristique magna
+              sit. Auctor eu augue ut lectus arcu bibendum at varius. Nam
+              aliquam sem et tortor consequat id. Nunc mi ipsum faucibus vitae
+              aliquet nec. Eu consequat ac felis donec et. Vivamus arcu felis
+              bibendum ut tristique. Egestas diam in arcu cursus euismod quis
+              viverra nibh. Donec ac odio tempor orci dapibus ultrices in
+              iaculis. Enim eu turpis egestas pretium.
+            </p>
+
+            <p>
+              Massa id neque aliquam vestibulum. Nibh praesent tristique magna
+              sit. Auctor eu augue ut lectus arcu bibendum at varius. Nam
+              aliquam sem et tortor consequat id. Nunc mi ipsum faucibus vitae
+              aliquet nec. Eu consequat ac felis donec et. Vivamus arcu felis
+              bibendum ut tristique. Egestas diam in arcu cursus euismod quis
+              viverra nibh. Donec ac odio tempor orci dapibus ultrices in
+              iaculis. Enim eu turpis egestas pretium.
+            </p>
+            <p>
+              Massa id neque aliquam vestibulum. Nibh praesent tristique magna
+              sit. Auctor eu augue ut lectus arcu bibendum at varius. Nam
+              aliquam sem et tortor consequat id. Nunc mi ipsum faucibus vitae
+              aliquet nec. Eu consequat ac felis donec et. Vivamus arcu felis
+              bibendum ut tristique. Egestas diam in arcu cursus euismod quis
+              viverra nibh. Donec ac odio tempor orci dapibus ultrices in
+              iaculis. Enim eu turpis egestas pretium.
+            </p>
+            <p>
+              Massa id neque aliquam vestibulum. Nibh praesent tristique magna
+              sit. Auctor eu augue ut lectus arcu bibendum at varius. Nam
+              aliquam sem et tortor consequat id. Nunc mi ipsum faucibus vitae
+              aliquet nec. Eu consequat ac felis donec et. Vivamus arcu felis
+              bibendum ut tristique. Egestas diam in arcu cursus euismod quis
+              viverra nibh. Donec ac odio tempor orci dapibus ultrices in
+              iaculis. Enim eu turpis egestas pretium.
+            </p>
           </div>
-
-          <p className="fadeIn">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            dolores facere ea blanditiis minima expedita vero quasi, neque
-            ducimus eum molestias ullam alias libero assumenda adipisci
-            perferendis, enim quod. Expedita voluptates at voluptas fugit id
-            deserunt perspiciatis dolore numquam. Beatae aspernatur cupiditate
-            minima fugiat exercitationem illo sint nam repellat hic?
-          </p>
         </div>
       </div>
     </React.Fragment>

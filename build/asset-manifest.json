@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/animated-portfolio-with-intersection-observer/static/css/main.db1ef914.chunk.css",
-    "main.js": "/animated-portfolio-with-intersection-observer/static/js/main.80495e9c.chunk.js",
-    "main.js.map": "/animated-portfolio-with-intersection-observer/static/js/main.80495e9c.chunk.js.map",
+    "main.css": "/animated-portfolio-with-intersection-observer/static/css/main.e0fc0de3.chunk.css",
+    "main.js": "/animated-portfolio-with-intersection-observer/static/js/main.c88adfcb.chunk.js",
+    "main.js.map": "/animated-portfolio-with-intersection-observer/static/js/main.c88adfcb.chunk.js.map",
     "runtime-main.js": "/animated-portfolio-with-intersection-observer/static/js/runtime-main.696d4f6d.js",
     "runtime-main.js.map": "/animated-portfolio-with-intersection-observer/static/js/runtime-main.696d4f6d.js.map",
-    "static/js/2.e42c1b99.chunk.js": "/animated-portfolio-with-intersection-observer/static/js/2.e42c1b99.chunk.js",
-    "static/js/2.e42c1b99.chunk.js.map": "/animated-portfolio-with-intersection-observer/static/js/2.e42c1b99.chunk.js.map",
+    "static/js/2.6276fb8a.chunk.js": "/animated-portfolio-with-intersection-observer/static/js/2.6276fb8a.chunk.js",
+    "static/js/2.6276fb8a.chunk.js.map": "/animated-portfolio-with-intersection-observer/static/js/2.6276fb8a.chunk.js.map",
     "index.html": "/animated-portfolio-with-intersection-observer/index.html",
-    "precache-manifest.1c4ad341fd50b6116c719fab6531682e.js": "/animated-portfolio-with-intersection-observer/precache-manifest.1c4ad341fd50b6116c719fab6531682e.js",
+    "precache-manifest.e528650972e6640b02f0c63679713cb3.js": "/animated-portfolio-with-intersection-observer/precache-manifest.e528650972e6640b02f0c63679713cb3.js",
     "service-worker.js": "/animated-portfolio-with-intersection-observer/service-worker.js",
-    "static/css/main.db1ef914.chunk.css.map": "/animated-portfolio-with-intersection-observer/static/css/main.db1ef914.chunk.css.map",
-    "static/js/2.e42c1b99.chunk.js.LICENSE.txt": "/animated-portfolio-with-intersection-observer/static/js/2.e42c1b99.chunk.js.LICENSE.txt",
-    "static/media/ignant-photography-christian-colomer-011-720x929.jpg": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-011-720x929.defca130.jpg",
-    "static/media/ignant-photography-christian-colomer-03-720x905.jpg": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-03-720x905.4abee242.jpg",
-    "static/media/ignant-photography-christian-colomer-new-04.jpg": "/animated-portfolio-with-intersection-observer/static/media/ignant-photography-christian-colomer-new-04.cff39982.jpg"
+    "static/css/main.e0fc0de3.chunk.css.map": "/animated-portfolio-with-intersection-observer/static/css/main.e0fc0de3.chunk.css.map",
+    "static/js/2.6276fb8a.chunk.js.LICENSE.txt": "/animated-portfolio-with-intersection-observer/static/js/2.6276fb8a.chunk.js.LICENSE.txt",
+    "static/media/adam-peter-johnson_metalmagazine-1.jpg": "/animated-portfolio-with-intersection-observer/static/media/adam-peter-johnson_metalmagazine-1.c28c7ec4.jpg",
+    "static/media/adam-peter-johnson_metalmagazine-3.jpg": "/animated-portfolio-with-intersection-observer/static/media/adam-peter-johnson_metalmagazine-3.37747a5e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.696d4f6d.js",
-    "static/js/2.e42c1b99.chunk.js",
-    "static/css/main.db1ef914.chunk.css",
-    "static/js/main.80495e9c.chunk.js"
+    "static/js/2.6276fb8a.chunk.js",
+    "static/css/main.e0fc0de3.chunk.css",
+    "static/js/main.c88adfcb.chunk.js"
   ]
 }
