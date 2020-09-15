@@ -21,7 +21,7 @@ curious about the way it would look in React.
 
 <p>Yesterday's Project</p>
 
-[<img src="./public/img/preview.gif">](https://nadiamariduena.github.io/react-hide-show-onscroll/)
+[<img src="./src/img/preview-previous.gif">](https://nadiamariduena.github.io/react-hide-show-onscroll/)
 
 <br>
 <br>
