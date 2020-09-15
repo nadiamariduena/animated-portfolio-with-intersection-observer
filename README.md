@@ -1,8 +1,7 @@
-# (APP in PROGRESS) 
+# (APP in PROGRESS)
 
 #### To create this project I am going to use the INTERSECTION OBSERVER.
 
-<br>
 <br>
 
 ## FADE IN - FADE OUT ANIMATION with INTERSECTION OBSERVER
@@ -13,7 +12,6 @@ using AOS library (which offers nice animations) but i felt like with Intersecti
 curious about the way it would look in React. 
 </p>
 
-<br>
 <br>
 
 <h1> What is Intersection
